@@ -1,0 +1,105 @@
+body {
+     overflow-x: hidden;
+}
+
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+        text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    }
+
+    .top-nav-collapse {
+        /* Customize the look and feel of the collapsed top nav here */
+        padding: 0;
+    }
+}
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+i{
+font-size: 8em;
+
+}
+
+ul { /* also works with ol */
+    width: 40%; /* or your desired width */
+    text-align: center; /* this will center the list items */
+   margin-left: auto;
+    margin-right: auto;
+}
+li { 
+    display: inline-block; /* the key bit */
+    *display: inline; /* IE7 hack */
+    *zoom: 1; /* IE7 hack */
+}
+h1
+
+ {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+.img-circle {
+    border-radius: 50%;
+}
+
+
+
+.logo{
+  margin: 0 auto;
+
+
+}
+
+
+h2{
+
+    color: white;
+}
+.accordion-heading{
+
+font-size: 2em;
+}
+.intro-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #08A3D9;
+    color: white;
+
+}
+
+.about-section {
+    height: 100%;
+    padding-top: 100px;
+    text-align: center;
+    background: #18BC9C;
+    color: white;
+}
+
+.services-section {
+    height: 100%;
+    padding-top: 50px;
+    text-align: center;
+    background: #E78013;
+    color: white;
+}
+
+.contact-section {
+    height: 100%;
+    padding-top: 100px;
+    text-align: center;
+    background: #E84C3D;
+    color: white;
+}
+.popover-title{
+
+    color: black;
+}
