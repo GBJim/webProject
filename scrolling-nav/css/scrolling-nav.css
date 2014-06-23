@@ -73,8 +73,8 @@ font-size: 2em;
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #3A7FED;
-    color: white;
+    background: white;
+    color: black;
 
 }
 
@@ -104,4 +104,36 @@ font-size: 2em;
     text-align: center;
     background: #E84C3D;
     color: black;
+}
+.slider1{
+width: 100%;
+    height: 400px;
+     background: url("../../database.jpg") no-repeat  ;
+        -webkit-background-size: 70%,90%;
+background-position:right; }
+.slider2{
+width: 100%;
+    height: 400px;
+        background: url("../../data_mining.jpg") no-repeat  ;
+        -webkit-background-size: 50%,90%;
+        background-position:right;
+}
+.slider3{
+    width: 100%;
+
+    height: 400px;
+     background: url("../../music.jpg") no-repeat  ;
+        -webkit-background-size: 50%,90%;
+        background-position:left;
+}
+.slider4{
+    width: 100%;
+
+    height: 400px;
+     background: url("../../bat.jpg") no-repeat  ;
+        -webkit-background-size: 50%,50%;
+        background-position:right;
+}
+.carousel-control.left, .carousel-control.right {
+    background-image: none
 }
